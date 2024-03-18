@@ -22,12 +22,12 @@ label2id = {"O": 0, "I-S":1, "B-S":2}
 id2label = {0: "O", 1: "I-S", 2:"B-S"}
 
 train_files = [
-    "./TOKENIZED_BIO_random_samples_test_Economics_annotated_gold.csv",
-    "./TOKENIZED_BIO_random_samples_test_worldpolitics_annotated_gold.csv",
-    "./TOKENIZED_BIO_random_samples_test_politics_annotated_gold.csv"
+    "./TOKENIZED_BIO_Economics_annotated_gold.csv",
+    "./TOKENIZED_BIO_worldpolitics_annotated_gold.csv",
+    "./TOKENIZED_BIO_politics_annotated_gold.csv"
 ]
-test_file = "./TOKENIZED_BIO_random_samples_test_ukpolitics_annotated_gold.csv"
-validation_file = "./TOKENIZED_BIO_random_samples_test_Libertarian_annotated_gold.csv"
+test_file = "./TOKENIZED_BIO_ukpolitics_annotated_gold.csv"
+validation_file = "./TOKENIZED_BIO_Libertarian_annotated_gold.csv"
 
 #tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
 #for RoBERTa uncomment below line
